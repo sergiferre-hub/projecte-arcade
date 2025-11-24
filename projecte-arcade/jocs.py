@@ -98,21 +98,23 @@ def nana ():
     while True:
         intents += 1
 
+        entrada_usuari_str = input ("Introdueix un número entre 1 i 100 (s per sortir): ")
+
+        if entrada_usuari_str == 's':
+            print ("Has decidit sortir del joc.")
+            break
+
         try:
-            numero_usuari = input ("Introdueix un número entre 1 i 100 (s per sortir): ")
-
-            if numero_usuari == 's':
-                print ("Has decidit sortir del joc.")
-                break
-
-            if numero_secret < 1 or numero_secret > 100:
-                print ("Número fora de rang. Torna-ho a intentar.")
-                continue
+            numero_usuari = int(entrada_usuari_str) 
 
         except ValueError:
             print ("Entrada no vàlida. Introdueix un número.")
             continue
 
+        if numero_usuari < 1 or numero_usuari > 100:
+            print ("Número fora de rang. Torna-ho a intentar.")
+            continue
+            
         if numero_usuari < numero_secret:
             print ("Més alt.")
 
