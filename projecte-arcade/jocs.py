@@ -105,7 +105,7 @@ def nana ():
                 print ("Has decidit sortir del joc.")
                 break
 
-            if numero_usuari < 1 or numero_usuari > 100:
+            if numero_secret < 1 or numero_secret > 100:
                 print ("Número fora de rang. Torna-ho a intentar.")
                 continue
 
