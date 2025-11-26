@@ -1,7 +1,7 @@
 import random
 import robot 
 
-def determinar_guanyador_ronda (jugador, maquina):
+def guanyador_ronda (jugador, maquina):
 
     if jugador == maquina:
         return "empat"
@@ -61,7 +61,7 @@ def janken ():
         print (f"Robot: {jugada_maquina}")
 
         # 3. Comparar i actualitzar puntuacions
-        guanyador = determinar_guanyador_ronda (jugada_usuari, jugada_maquina)
+        guanyador = guanyador_ronda (jugada_usuari, jugada_maquina)
         
         if guanyador == "jugador":
             puntuacio_jugador += 1
