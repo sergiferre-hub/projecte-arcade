@@ -16,13 +16,13 @@ Aquest projecte demostra la modularització i estructuració del codi en Python,
 
 ### Joc 1: Pedra, Paper, Tisora
 
-El joc implementa un bucle per gestionar les rondes i el comptador de puntuacions. Al començament, l'usuari ha de triar un dels dos modes de joc:
+El joc te un bucle per gestionar les rondes i el comptador de puntuacions. Al començament, l'usuari ha de triar un dels dos modes de joc:
 * El primer que arribi a 3 victòries.
 * Al millor de 5 rondes.
 
 ### Joc 2: Endevinar el Número
 
-L'aplicació genera un número aleatori (entre 1 i 100), i gestiona un bucle per demanar números a l'usuari, donar pistes ("Més alt," "Més baix") i comptar els intents.
+L'aplicació genera un número aleatori (entre 1 i 100), i gestiona un bucle per demanar números a l'usuari, donar pistes ("Més alt," "Més baix") i compta els intents.
 
 
 ## Com Executar el Projecte
