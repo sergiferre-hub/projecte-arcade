@@ -80,7 +80,7 @@ def janken ():
     if puntuacio_jugador == puntuacio_maquina:
         missatge = "Partida acabada en empat."
 
-    elif puntuacio_jugador > puntuacio_maquina:
+    if puntuacio_jugador > puntuacio_maquina:
         missatge = f"Has guanyat la partida ({puntuacio_jugador}-{puntuacio_maquina})"
 
     else:
