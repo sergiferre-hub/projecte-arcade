@@ -25,8 +25,4 @@ L'aplicació genera un número aleatori (entre 1 i 100), i gestiona un bucle per
 
 ## Com Executar el Projecte
 
-Per executar el Mini Arcade, necessites tenir Python instal·lat al teu sistema.
-
-### Estructura de Fitxers
-
-Assegura't que els mòduls estiguin al mateix directori
+Per executar el Mini Arcade, necessites tenir Python instal·lat al teu sistema i executar main.py.
