@@ -124,3 +124,10 @@ def nana ():
         else:
             print (f"Has endevinat el número {numero_secret} en {intents} intents.")
             break
+
+#3 : Joc Moneda
+def moneda():
+    print("Llançament de Moneda")
+
+    maquina_joc = robot.moneda()
+    jugada_usuari = input("Tria cara o creu: ").lower()
