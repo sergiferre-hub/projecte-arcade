@@ -23,6 +23,10 @@ El joc te un bucle per gestionar les rondes i el comptador de puntuacions. Al co
 
 L'aplicació genera un número aleatori (entre 1 i 100), i gestiona un bucle per demanar números a l'usuari, donar pistes ("Més alt," "Més baix") i compta els intents.
 
+## Joc 3: Llançament de moneda
+
+El 3r joc te un bucle finc que l'usuari escrigui s per a sortir al main, et demana entre 2 opcions (cara, creu), si la màquina tria l'opció que no ha triat l'usuari, la màquina guanya, i si la màquina tria l'opció que ha triat l'usuari, l'usuari guanya.
+
 ## Com Executar el Projecte
 
 Per executar el Mini Arcade, necessites tenir Python instal·lat al teu sistema i executar main.py.

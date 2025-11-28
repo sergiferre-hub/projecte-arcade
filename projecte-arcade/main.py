@@ -5,6 +5,7 @@ def mostrar_menu ():
     print ("Benvingut/da a l'Arcade")
     print ("1. Jugar a Pedra, Paper, Tisora")
     print ("2. Jugar a Endevinar el Número")
+    print ("3. Jugar a Llançament de Moneda")
     print ("s. Sortir")
 
 def main ():
@@ -25,8 +26,11 @@ def main ():
         elif opcio == '2':
             jocs.nana ()
             
+        elif opcio == '3':
+            jocs.moneda ()
+
         else:
-            print ("Opció incorrecta. Selecciona 1, 2 o s.")
+            print ("Opció incorrecta. Selecciona 1, 2, 3 o s.")
 
 if __name__ == "__main__":
     main()
