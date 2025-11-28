@@ -147,7 +147,7 @@ def moneda ():
         jugada_maquina = maquina_joc.playing () 
         
         print (f"Robot: {jugada_maquina}")
-
+        
         #Determina guanyador de la ronda
         if jugada_usuari == jugada_maquina:
             print ("Has guanyat")

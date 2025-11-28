@@ -1,6 +1,6 @@
 # Arcade Python
 
-Arcade és una petita aplicació de consola desenvolupada en Python que simula una màquina recreativa amb dos jocs: Pedra, Paper, Tisora amb 2 modes de ronda i endevinar el número del 1 al 100.
+Arcade és una petita aplicació de consola desenvolupada en Python que simula una màquina recreativa amb dos jocs: Pedra, Paper, Tisora amb 2 modes de ronda, endevinar el número del 1 al 100 i llança la moneda.
 
 ## Descripció del Projecte
 
