@@ -33,4 +33,4 @@ def main ():
             print ("Opció incorrecta. Selecciona 1, 2, 3 o s.")
 
 if __name__ == "__main__":
-    main()
+    main ()

@@ -126,31 +126,31 @@ def nana ():
             break
 
 #3 : Joc Moneda
-def moneda():
-    print("Llançament de Moneda")
+def moneda ():
+    print ("Llançament de Moneda")
 
-    maquina_joc = robot.moneda()
+    maquina_joc = robot.moneda ()
     opcions_valides_moneda = ["cara", "creu", "s"]
 
     while True:
         
-        jugada_usuari = input("Tria cara o creu (s per sortir): ").lower()
+        jugada_usuari = input ("Tria cara o creu (s per sortir): ").lower ()
 
         if jugada_usuari == 's':
-            print("Has decidit sortir del joc.")
+            print ("Has decidit sortir del joc.")
             break
         
         if jugada_usuari not in opcions_valides_moneda:
-            print("Jugada no vàlida. Tria 'cara', 'creu' o 's' per sortir.")
+            print ("Jugada no vàlida. Tria 'cara', 'creu' o 's' per sortir.")
             continue
         
-        jugada_maquina = maquina_joc.playing() 
+        jugada_maquina = maquina_joc.playing () 
         
-        print(f"Robot: {jugada_maquina}")
+        print (f"Robot: {jugada_maquina}")
 
         #Determina guanyador de la ronda
         if jugada_usuari == jugada_maquina:
-            print("Has guanyat")
+            print ("Has guanyat")
         else:
-            print("El robot ha guanyat.")
-        
+            print ("El robot ha guanyat.")
+       
